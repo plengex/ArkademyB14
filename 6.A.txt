@@ -1,0 +1,4 @@
+Perintah SQL untuk menampilkan gambar seperti pada contoh soal:
+
+
+SELECT * FROM product JOIN category ON category_id=id_category JOIN cashier ON cashier_id=id_cashier ORDER BY id ASC
